@@ -44,9 +44,9 @@
 		display: inline-block;
 		width: 100%;
 	}
-	#wrap {
+	/* #wrap {
 		padding: 20px;
-	}
+	} */
 	header.main-header nav .ownmenu li {
 		padding-left: 30px;
 	}
@@ -153,9 +153,9 @@
 		position: relative;
 		background: #2e2e2e;
 	}
-	#wrap {
+	/* #wrap {
 		padding: 20px;
-	}
+	} */
 	.skills {
 		margin-top: 0px;
 	}

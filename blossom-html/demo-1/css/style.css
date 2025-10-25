@@ -76,7 +76,7 @@ body {
 	position: relative;
 	width: 100%;
 	overflow: hidden;
-	padding: 50px;
+	/* padding: 50px; */
 }
 #main-wrapper {
 	position: relative;
@@ -2664,4 +2664,42 @@ footer .social_icons li a {
 }
 .padding-l-60 {
 	padding-left: 60px;
+}
+.mainbtn{
+background: #242552;
+    color: white !important;
+    text-align: center;
+    border-radius: 0.8rem;
+    padding: 18px 17px;
+    display: inline !important;
+    font-size: 18px;
+}
+.form-box {
+  background-color:#f7f7f7;
+  padding: 30px;
+}
+.form-box .container {
+  text-align: center;
+  color: teal;
+  width: 100%;
+  background-color:white;
+  width:350px;
+  padding:30px ;
+}
+
+.history img {
+  width: 100%;    
+  height: auto;   
+  display: block; 
+}
+
+.flex img{
+ 
+    height: 30px;
+    width: 150px;
+}
+.flex {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
 }
