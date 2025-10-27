@@ -2703,3 +2703,37 @@ background: #242552;
 	justify-content: space-between;
 	padding: 20px;
 }
+*{
+	 font-family: "Outfit", sans-serif !important;
+}
+
+.vision-box{
+	    margin-top: 40px !important;
+        margin-bottom: 40px !important;
+}
+.vision-box1{
+	margin-top: 40 px !important;
+	margin-bottom: 40px !important;
+}
+.contact-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f7f7f7;
+  padding: 50px;
+}
+
+.form-box {
+  background: white;
+  padding: 40px; 
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.form {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+
+}
