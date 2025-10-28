@@ -1850,7 +1850,7 @@ header.main-header nav .ownmenu > li {
     - FOOTER
 ========================================================*/
 footer {
-	background: #2e2e2e;
+	background: white;
 	padding-top: 120px;
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
@@ -2893,4 +2893,16 @@ label.required::after {
   content: " *";
   color: red;
   font-weight: bold;
+}
+.footer1{
+	display: flex;
+	flex-direction: row;
+	    justify-content: space-around
+}
+.footer-bg{	background-color: #0072b2;
+}
+.footer2{
+	display: flex;
+	flex-direction: column;
+	width: 33%;
 }
