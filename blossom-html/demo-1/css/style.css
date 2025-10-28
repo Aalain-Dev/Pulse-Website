@@ -2672,13 +2672,21 @@ footer .social_icons li a {
 	padding-left: 60px;
 }
 .mainbtn{
-background: #242552;
+background: #5153b8;
     color: white !important;
     text-align: center;
     border-radius: 0.8rem;
     padding: 18px 17px;
     display: inline !important;
     font-size: 18px;
+	width: 100%;
+	border: none;
+	  transition: background-color 0.5s linear;
+}
+.mainbtn:hover{
+	background-color: #242552;
+	 transition: background-color 0.5s linear;
+	 
 }
 .form-box {
   background-color:#f7f7f7;
@@ -2726,7 +2734,7 @@ background: #242552;
 		color: black;
 }
 .contact-wrapper {
-  /* display: flex; */
+  display: flex;
   justify-content: center;
   align-items: center;
   background: #f7f7f7;
@@ -2776,4 +2784,101 @@ margin-bottom: 20px;
 .vision-text{
 	font-size: 16px;
 	
+}
+.justify{
+	justify-content: space-between;
+
+}
+ .gap-20{
+	gap: 20px;
+} 
+.w-full{
+	width: 100%;
+}
+.margin{
+	margin: 0px auto;
+}
+
+.bg-card{
+	background-color: #5153b8;
+}
+.btn1{
+	    background: gray;
+    color: white !important;
+    text-align: center;
+    border-radius: 2.8rem;
+    padding: 1px;
+    display: inline !important;
+    font-size: 12px;
+    width: 46%;
+    border: none;
+    transition: background-color 0.5s 
+linear;
+    margin: 0px;
+    height: 30px;
+
+}
+.card-pos{
+	position:absolute;
+	bottom: 0;
+    right: -30px;
+}
+.flex1{
+	display: flex;
+}
+.card-pos-re{
+	position:relative
+}
+.w-card{
+	width: 300px;
+	height: 310px;
+}
+.bg-text-card{
+	background-color: #ffffffa6;
+	margin: 0%;
+	padding: 0;
+	    border-top-right-radius: 10px;
+		width: 70%;
+}
+.card1 h3{
+	margin: 0 !important;
+	padding: 0 !important;
+
+}
+.card1 p{
+	margin: 0 !important;
+	padding: 0 !important;
+
+}
+.pad{
+	padding-bottom:12px  !important;
+
+}
+.icon{
+	width: 28px;
+  height: 28px;
+  border-radius: 48%;
+}
+
+.pos{
+	position: absolute;
+    bottom: 0;
+}
+.pos1{
+	position: absolute;
+    top: 11px;
+    right: 13px;
+	color:black;
+	padding: 1px;
+}
+.card2{
+	background: white;
+	width: 14%;
+    border-radius: 59%;
+    height: 14%;
+}
+.flex-card{
+	    display: flex;
+    justify-content: center;
+    align-items: center;
 }
