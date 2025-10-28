@@ -303,7 +303,7 @@
     <div class="flex1 gap-20">
       
       <!-- Card 1 -->
-      <div class="bg-card  card-pos-re ">
+      <div class="bg-card  card-pos-re card-radius ">
         <img src="images/team/1.png" alt="Jyotir Jain" class="">
         <div class="bg-text-card pad card1 pos">
           <h3>Jyotir Jain</h3>
@@ -311,7 +311,36 @@
           <button class="btn1">Read More</button>
         </div>
         <div class="card2 pos1 flex-card">
+        
+        <a href="https://www.linkedin.com/in/jyotirjain/" target="_blank">
         <img src="images/team/linkicon.png" class="icon " alt="LinkedIn">
+        </a>
+      </div>
+    </div>
+    <div class="bg-card  card-pos-re card-radius ">
+        <img src="images/team/2.png" alt="Jyotir Jain" class="">
+        <div class="bg-text-card pad card1 pos">
+          <h3>Samit Mehta </h3>
+          <p>Director - BizDateUp</p>
+          <button class="btn1">Read More</button>
+        </div>
+        <div class="card2 pos1 flex-card">
+          <a href="https://www.linkedin.com/in/samit-mehta-170731b/" target="_blank">
+        <img src="images/team/linkicon.png" class="icon " alt="LinkedIn">
+      </a>
+      </div>
+    </div>
+          <div class="bg-card  card-pos-re card-radius ">
+        <img src="images/team/3.png" alt="Jyotir Jain" class="">
+        <div class="bg-text-card pad card1 pos">
+          <h3>Meet Ashok Jain </h3>
+          <p>Co-Founder - BizDateUp</p>
+          <button class="btn1">Read More</button>
+        </div>
+        <div class="card2 pos1 flex-card">
+        <a href="https://www.linkedin.com/in/meetashokjain/" target="_blank">
+        <img src="images/team/linkicon.png" class="icon " alt="LinkedIn">
+        </a>
       </div>
     </div>
 
@@ -323,53 +352,45 @@
       
 
   <!--======= FOOTER =========-->
- 
-  </div>
-<div class="contact-wrapper">
+ <div class="contact-wrapper">
   <div class="form-box col-md-7 margin">
     <form action="https://formsubmit.co/lekhadalvi08@gmail.com" method="POST">
+      
       <h2 style="text-align:center; margin-bottom:30px;">Reach Out to Us</h2>
 
-      <div class="">
-        <div class="">
-          <div class="form">
-            <label for="nameInput" class="form-label">Name</label>
-            <input type="text" class="form-control" id="nameInput" name="name" placeholder="Your Name" required>
-          </div>
-        </div>
-
-        <div class="">
-          <div class="form">
-            <label for="gmailInput" class="form-label">Email</label>
-            <input type="email" class="form-control" id="gmailInput" name="email" placeholder="example@email.com" required>
-          </div>
-        </div>
-
-        <div class="">
-          <div class="form">
-            <label for="phoneInput" class="form-label">Phone Number</label>
-            <input type="tel" class="form-control" id="phoneInput" name="phone" placeholder="1234567890" required pattern="[0-9]{10}">
-          </div>
-        </div>
-
-        <div class="">
-          <div class="form">
-            <label for="city" class="form-label">City Name</label>
-            <input type="text" class="form-control" id="city" name="city" placeholder="Your City" required>
-          </div>
-        </div>
-
-        <div class="">
-          <div class="form">
-            <label for="message" class="form-label">What are you looking for?</label>
-            <textarea class="form-control" id="message" name="message" rows="5" placeholder="Enter your message here"></textarea>
-          </div>
-        </div>
-
-        <div class="">
-          <button type="submit" class="mainbtn">Submit</button>
-        </div>
+      <div class="form">
+        <label for="nameInput" class="form-label required">Name</label>
+        <input type="text" class="form-control" id="nameInput" name="name" placeholder="Your Name" required>
       </div>
+
+      <div class="form">
+        <label for="gmailInput" class="form-label required">Email</label>
+        <input type="email" class="form-control" id="gmailInput" name="email" placeholder="example@email.com" required>
+      </div>
+
+      <div class="form">
+        <label for="phoneInput" class="form-label required">Phone Number</label>
+        <input type="tel" class="form-control" id="phoneInput" name="phone" placeholder="1234567890" required pattern="[0-9]{10}">
+      </div>
+
+      <div class="form">
+        <label for="city" class="form-label required">City Name</label>
+        <input type="text" class="form-control" id="city" name="city" placeholder="Your City" required>
+      </div>
+
+      <div class="form">
+        <label for="message" class="form-label">What are you looking for?</label>
+        <textarea class="form-control" id="message" name="message" rows="5" placeholder="Enter your message here"></textarea>
+      </div>
+
+      <div class="text-center mt-4">
+        <button type="submit" class="mainbtn">Submit</button>
+      </div>
+
+      <!-- Hidden fields for FormSubmit -->
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://chatgpt.com/">
+      <input type="hidden" name="_template" value="table">
     </form>
   </div>
 </div>
