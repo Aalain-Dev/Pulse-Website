@@ -2762,3 +2762,18 @@ background: #242552;
 color: #000;
 margin-bottom: 20px;
 }
+.owl-stage{
+	padding-bottom: 20px!important;
+}
+.pulse-fund-card-text{
+	color: #fff;
+	font-size: 17px!important;
+}
+.pulse-func-card-heading-text{
+	font-size: 25px!important;
+	font-weight: 800;
+}
+.vision-text{
+	font-size: 16px;
+	
+}
