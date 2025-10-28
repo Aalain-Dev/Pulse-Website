@@ -2755,3 +2755,10 @@ background: #242552;
 	box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 	padding-bottom: 25px;
 }
+.thanks-text
+{
+	font-size: 30px;
+	font-weight: 800;
+color: #000;
+margin-bottom: 20px;
+}
