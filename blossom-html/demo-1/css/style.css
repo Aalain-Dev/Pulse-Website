@@ -1058,7 +1058,7 @@ header.main-header nav .ownmenu>li {
 	color: #bfbfbf;
 	line-height: 30px;
 	color: black;
-	font-size: 21px;
+	font-size: 16px;
 }
 
 .history-text a {
@@ -3386,28 +3386,61 @@ footer .social_icons li a {
 }
 
 label.required::after {
-  content: " *";
-  color: red;
-  font-weight: bold;
+	content: " *";
+	color: red;
+	font-weight: bold;
 }
-.footer1{
+
+.footer1 {
 	display: flex;
 	flex-direction: row;
-	    justify-content: space-around
+	justify-content: space-around
 }
-.footer-bg{	background-color: #0072b2;
+
+.footer-bg {
+	background-color: #0072b2;
 }
-.footer2{
+
+.footer2 {
 	display: flex;
 	flex-direction: column;
 	width: 33%;
 }
 
+.value-part {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.w-50 {
+	width: 50%;
+}
+
+.unique-flex {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.text-part-unique {
+	font-size: 18px;
+	/* font-weight: 500; */
+	background-color: #242552;
+	padding: 30px 30px;
+	text-align: center;
+border-radius: 10px;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;}
+
 .team-space {
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
-
+.unique-p-tag{
+	font-size: 18px;
+}
+.form-width{
+	width: 60%;
+}
 @media screen and (max-width: 999px) {
 	.mission {
 		flex-direction: column;
@@ -3441,11 +3474,38 @@ label.required::after {
 		margin-top: 15px;
 		margin-bottom: 15px;
 	}
-	.team-text{
+
+	.team-text {
 		font-size: 30px;
 	}
-	.tittle h2{
+
+	.tittle h2 {
 		font-size: 30px;
 	}
-	
+	.w-50{
+		width: 100%;
+	}
+.text-part-unique {
+    font-size: 15px;
+    background-color: #242552;
+    padding: 15px 15px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.form-width{
+	width: 100%;
+}
+.form-box {
+    padding: 15px 25px;
+}
+.contact-wrapper {
+    padding: 20px 20px;
+}
+.label-text{
+	font-size: 16px
+}
+.reach-out-class{
+	font-size: 25px;
+}
 }
