@@ -2803,10 +2803,10 @@ margin-bottom: 20px;
 	background-color: #5153b8;
 }
 .btn1{
-	    background: gray;
+	    background: #040404;
     color: white !important;
     text-align: center;
-    border-radius: 2.8rem;
+    border-radius: 0.8rem;
     padding: 1px;
     display: inline !important;
     font-size: 12px;
@@ -2828,6 +2828,7 @@ linear;
 }
 .card-pos-re{
 	position:relative
+	    
 }
 .w-card{
 	width: 300px;
@@ -2843,12 +2844,14 @@ linear;
 .card1 h3{
 	margin: 0 !important;
 	padding: 0 !important;
-
+	font-size: 23px;
+	font-weight: bold;
 }
 .card1 p{
 	margin: 0 !important;
 	padding: 0 !important;
-
+	font-size: 15px;
+	font-weight: bold;
 }
 .pad{
 	padding-bottom:12px  !important;
@@ -2863,6 +2866,7 @@ linear;
 .pos{
 	position: absolute;
     bottom: 0;
+	padding: 12px;
 }
 .pos1{
 	position: absolute;
@@ -2881,4 +2885,12 @@ linear;
 	    display: flex;
     justify-content: center;
     align-items: center;
+}
+.card-radius{
+	border-radius: 10px;
+}
+label.required::after {
+  content: " *";
+  color: red;
+  font-weight: bold;
 }
