@@ -2399,6 +2399,7 @@ footer .social_icons li a {
 	margin: 0px;
 	margin-top: 0px;
 	line-height: 26px;
+	font-size: 15px;
 }
 
 .contact-form textarea {
@@ -3486,10 +3487,10 @@ linear;
 	border-radius: 10px;
 }
 
-label.required::after {
-	content: " *";
-	color: red;
-	font-weight: bold;
+.required::after {
+	content: " *";      /* adds a red asterisk after the label */
+	color: red;          /* makes it red */
+	font-weight: bold;   /* makes it bold */
 }
 
 .footer1 {
@@ -3505,7 +3506,7 @@ label.required::after {
 .footer2 {
 	display: flex;
 	flex-direction: column;
-	width: 33%;
+	width: 50%;
 	margin: 20px;
 	text-align: left;
 }
@@ -3628,6 +3629,12 @@ box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;}
 	/* font-weight: 600; */
 	text-decoration: none !important;
 }
+.p-footer-q1{
+	font-size: 18px !important;
+	color: #000;
+	font-weight: 700;
+	
+}
 .p-footer-terms{
 	font-weight: 700;
 	color: black;
@@ -3656,6 +3663,15 @@ box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;}
 .footer-margin-h{
 	margin-top: 0px;
 }
+label {
+    display: inline-block;
+    max-width: 100% !important;
+    margin-bottom: 5px !important;
+    font-weight: 700 !important;
+	font-size: 15px !important;
+}
+
+* {
 @media screen and (max-width: 999px) {
 	.mission {
 		flex-direction: column;
@@ -3720,7 +3736,7 @@ box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;}
 		padding: 20px 20px;
 	}
 	.label-text {
-		font-size: 16px
+		font-size: 15px
 	}
 	.reach-out-class {
 		font-size: 25px;
@@ -3736,6 +3752,6 @@ box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;}
 	margin: 15px;
 }
 .p-footer-q{
-	font-size: 14px;
+	font-size: 15px;
 }
 }
