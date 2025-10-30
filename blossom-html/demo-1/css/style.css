@@ -3771,6 +3771,17 @@ label {
 .pie2{
     box-shadow: none; 
 }
+
+.menu-nav{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-color: white;
+	top: 10px;
+	z-index: 1000;
+
+}
+
 @media screen and (max-width: 999px) {
 	.mission {
 		flex-direction: column;
@@ -3837,6 +3848,9 @@ label {
 	.contact-wrapper {
 		padding: 20px 20px;
 	}
+	.flex-index2{
+		display: none;
+	}
 
 	.label-text {
 		font-size: 15px
@@ -3887,6 +3901,13 @@ label {
 	}
 	
 }
+
+@media screen and (min-width: 1000px) {
+  .menu{
+    display: none;
+  }
+}
+
 @media screen and (max-width: 1200px){
 .change-50{
 	width: 100%;
