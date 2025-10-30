@@ -271,4 +271,18 @@ var layout = {
 };
 Plotly.newPlot('myDiv', data, layout, { displayModeBar: false });
 Plotly.newPlot('myDiv', data, layout);
-
+        fetch("nav.html")
+      .then(response => response.text())
+      .then(data => document.getElementById("navbar").innerHTML = data);
+    fetch("footer.html")
+      .then(response => response.text())
+      .then(data => document.getElementById("footer").innerHTML = data);
+    var open_icon = document.getElementById("open-icon")
+    var menu_icon = document.querySelector(".menu-nav")
+    var close_icon = document.querySelector("#close_icon")
+    open_icon.addEventListener("click", () => {
+      menu_icon.style.display = "block"
+    })
+    close_icon.addEventListener("click", () => {
+      menu_icon.style.display = "none"
+    })
