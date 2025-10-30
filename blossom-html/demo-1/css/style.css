@@ -3768,7 +3768,9 @@ label {
   justify-content: center;   /* centers chart inside box */
   align-items: center;
 }
-
+.pie2{
+    box-shadow: none; 
+}
 @media screen and (max-width: 999px) {
 	.mission {
 		flex-direction: column;
@@ -3884,4 +3886,12 @@ label {
 
 	}
 	
+}
+@media screen and (max-width: 1200px){
+.change-50{
+	width: 100%;
+}
+.flex-card1{
+flex-direction: column;
+}
 }

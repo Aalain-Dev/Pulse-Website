@@ -232,9 +232,6 @@ modal_map.forEach((modalElement) => {
     }
   });
 });
-// Initialize Lenis
-// Initialize Lenis
-// Initialize Lenis
 
 const lenis = new Lenis({
   duration: 1.2, // Adjust for desired scroll speed (lower = slower)
@@ -260,14 +257,17 @@ requestAnimationFrame(raf);
 
 
 var data = [{
-  values: [19, 26, 55],
-  labels: ['Residential', 'Non-Residential', 'Utility'],
-  type: 'pie'
+  values: [50, 30, 20],
+  labels: ['Startups', 'SMEs', 'Real Estate & Infrastructure'],
+  type: 'pie',
+  marker: {
+    colors: ['#242552', '#5153b8', '#d9d9d9'] // custom colors
+  }
 }];
 
 var layout = {
   height: 400,
   width: 500
 };
-
+Plotly.newPlot('myDiv', data, layout, { displayModeBar: false });
 Plotly.newPlot('myDiv', data, layout);
