@@ -3404,17 +3404,19 @@ footer .social_icons li a {
 .bg-card {
 	background-color: #5153b8;
 	width: 30%;
-transition: 0.5s linear scale;
+	transition: 0.5s linear scale;
 
 }
-.team-padding{
+
+.team-padding {
 	padding-bottom: 20px;
 }
-.bg-card:hover{
-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-cursor: pointer;
-scale: 1.05;
-transition: 0.5s linear scale;
+
+.bg-card:hover {
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	cursor: pointer;
+	scale: 1.05;
+	transition: 0.5s linear scale;
 }
 
 .btn1 {
@@ -3660,21 +3662,25 @@ transition: 0.5s linear scale;
 	font-weight: 600;
 	text-decoration: none !important;
 }
-.flex-card1{
+
+.flex-card1 {
 	display: flex;
 	align-items: center;
 }
-.multi-p{
+
+.multi-p {
 	font-size: 18px !important;
 	font-weight: 500;
 }
-.multi-p1{
+
+.multi-p1 {
 	font-size: 18px !important;
 }
-.multi-p2{
-	    font-size: 16px !important;
-    font-weight: 500;
-    color: black;
+
+.multi-p2 {
+	font-size: 16px !important;
+	font-weight: 500;
+	color: black;
 }
 
 .P-footer-a1 {
@@ -3738,41 +3744,47 @@ label {
 	border-top: 1px solid #000;
 }
 
-.flex-index2{
+.flex-index2 {
 	display: flex;
 	gap: 15px;
-	
+
 }
-.font-index{
+
+.font-index {
 	font-size: 10px !important;
 	color: #000;
 }
 
 .pie1 {
-  background: white;
-  display: flex;
-  justify-content: center;   /* centers chart horizontally */
-  align-items: center;       /* centers chart vertically */
-  width: 100%;
-  height: 100%;
+	background: white;
+	display: flex;
+	justify-content: center;
+	/* centers chart horizontally */
+	align-items: center;
+	/* centers chart vertically */
+	width: 100%;
+	height: 100%;
 }
 
 .pie2 {
-  width: 450px;              /* controls chart box size */
-  height: 400px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
-  border-radius: 15px;
-  background: white;
-  padding: 15px;
-  display: flex;
-  justify-content: center;   /* centers chart inside box */
-  align-items: center;
-}
-.pie2{
-    box-shadow: none; 
+	width: 450px;
+	/* controls chart box size */
+	height: 400px;
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+	border-radius: 15px;
+	background: white;
+	padding: 15px;
+	display: flex;
+	justify-content: center;
+	/* centers chart inside box */
+	align-items: center;
 }
 
-.menu-nav{
+.pie2 {
+	box-shadow: none;
+}
+
+.menu-nav {
 	position: fixed;
 	height: 100%;
 	width: 100%;
@@ -3781,27 +3793,45 @@ label {
 	z-index: 1000;
 
 }
-.icon-cross{
-	width: 15%;
+
+#open-icon {
+	cursor: pointer;
+
 }
-.menu1{
+
+.icon-cross {
+	width: 45px;
+	cursor: pointer;
+}
+
+.menu1 {
 	display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 19px;
+	align-items: center;
+	justify-content: space-between;
+	padding: 19px;
 }
-.menu-font{
-	font-size: 16px;
-    font-weight: 500;
-    color: black;
+
+.menu-font {
+	font-size: 18px;
+	font-weight: 500;
+	color: black;
 }
-.menu2{
-	display: flex;
+a{
+	color: #000!important;
+}
+.menu2 {
+display: flex
+;
     flex-direction: column;
-    gap: 40px !important;
-    margin-left: 55px;
+    gap: 26px;
+    margin-left: 41px;
     align-items: flex-start;
-    margin-top: 24px;
+    margin-top: 14px;
+}
+
+.menu-nav {
+	display: none;
+	transition: 0.5s linear display;
 }
 
 @media screen and (max-width: 999px) {
@@ -3870,7 +3900,8 @@ label {
 	.contact-wrapper {
 		padding: 20px 20px;
 	}
-	.flex-index2{
+
+	.flex-index2 {
 		display: none;
 	}
 
@@ -3921,20 +3952,21 @@ label {
 		padding: 10px 10px;
 
 	}
-	
+
 }
 
 @media screen and (min-width: 1000px) {
-  .menu{
-    display: none;
-  }
+	.menu {
+		display: none;
+	}
 }
 
-@media screen and (max-width: 1200px){
-.change-50{
-	width: 100%;
-}
-.flex-card1{
-flex-direction: column;
-}
+@media screen and (max-width: 1200px) {
+	.change-50 {
+		width: 100%;
+	}
+
+	.flex-card1 {
+		flex-direction: column;
+	}
 }

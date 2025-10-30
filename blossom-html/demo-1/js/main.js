@@ -271,3 +271,4 @@ var layout = {
 };
 Plotly.newPlot('myDiv', data, layout, { displayModeBar: false });
 Plotly.newPlot('myDiv', data, layout);
+
