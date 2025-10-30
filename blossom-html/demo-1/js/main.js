@@ -232,3 +232,28 @@ modal_map.forEach((modalElement) => {
     }
   });
 });
+// Initialize Lenis
+// Initialize Lenis
+// Initialize Lenis
+
+const lenis = new Lenis({
+  duration: 1.2, // Adjust for desired scroll speed (lower = slower)
+  easing: (t) => 1 - Math.pow(1 - t, 3), // Custom easing function for a smooth stop
+  smooth: true,
+  smoothTouch: false, // Set to true for smooth scrolling on touch devices
+  lerp: 0.1, // Controls the interpolation between scroll positions (lower = smoother)
+});
+
+// Update Lenis instance on scroll events
+lenis.on('scroll', (e) => {
+  // Optional: Log scroll events or perform other actions
+  console.log(e);
+});
+
+// Use requestAnimationFrame to update Lenis
+function raf(time) {
+  lenis.raf(time);
+  requestAnimationFrame(raf);
+}
+
+requestAnimationFrame(raf);
