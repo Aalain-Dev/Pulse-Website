@@ -3404,6 +3404,17 @@ footer .social_icons li a {
 .bg-card {
 	background-color: #5153b8;
 	width: 30%;
+transition: 0.5s linear scale;
+
+}
+.team-padding{
+	padding-bottom: 20px;
+}
+.bg-card:hover{
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+cursor: pointer;
+scale: 1.05;
+transition: 0.5s linear scale;
 }
 
 .btn1 {
